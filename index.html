@@ -8,4 +8,77 @@
 <body>
   
 </body>
+<script>
+
+//   for Loop Tasks
+
+// Print numbers from 1 to 10 using a for loop
+for (let i = 1; i<=10;i++){
+  console.log(i);
+}
+
+// Print all even numbers from 1 to 20
+for(let i = 2; i<=20; i+=2){
+  console.log(i);
+}
+
+// Write a program to display the multiplication table of 5
+for(let i=1; i<=10; i++){
+  console.log(`5 X ${i} = ${5*i}`);
+}
+
+// Calculate the sum of numbers from 1 to 50
+let sum = 0
+for(let i = 1; i<=50; i++){
+  sum = sum + i
+}
+console.log(sum);
+
+// Print numbers in reverse order (10 to 1)
+for(let i = 10; i>= 1; i--){
+  console.log(i);
+}
+
+
+// while Loop Tasks
+
+// Print numbers from 1 to 10 using a while loop
+let i = 1 
+while(i<=10){
+  console.log(i);
+  i++
+}
+
+// Print all odd numbers from 1 to 20
+let j = 1
+while(j<=20){
+  console.log(j);
+  j += 2
+}
+
+// Calculate the sum of numbers from 1 to 100
+let sumwhile = 0
+let k = 1
+while(k<=100){
+  sumwhile = sumwhile + k
+  k++
+}
+console.log(sumwhile);
+
+// Print numbers in reverse order (10 to 1)
+let l = 10;
+while(l>=1){
+  console.log(l);
+  l--;
+}
+
+// Create a password checker that keeps asking the user until they enter the correct password (admin123)
+let password = prompt("Enter your password:");
+
+while (password !== "admin123") {
+    password = prompt("Wrong password! Try again:");
+}
+alert("Access Granted!");
+
+</script>
 </html>
